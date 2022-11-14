@@ -1,0 +1,48 @@
+.ad {
+  width: 100%;
+  height: 200px;
+  background-color: #ee5d30;
+  margin-top: 12rem;
+  padding-left: 5rem;
+}
+#ad-title {
+  margin-left: 15rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+#watch {
+  height: 25rem;
+  margin-top: -6.5rem;
+}
+@media only screen and (max-width: 640px) {
+  .ad {
+    width: 100%;
+    height: 100px;
+    background-color: #ee5d30;
+    margin-top: 5rem;
+    padding-left: 0;
+  }
+  .ad1-grid1 {
+    text-align: start;
+    margin-right: 5%;
+  }
+  #ad-title {
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #watch {
+    height: 10rem;
+    margin-top: -2rem;
+  }
+}

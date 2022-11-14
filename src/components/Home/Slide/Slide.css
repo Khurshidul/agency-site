@@ -1,0 +1,146 @@
+.slide-section {
+  margin-top: 10rem;
+}
+.slide-grid {
+  width: 100%;
+  height: 600px;
+  background-color: #2f2339;
+  padding: 5rem;
+}
+#slide-img {
+  width: 100%;
+  height: 600px;
+}
+#ctv-agency {
+  text-align: start;
+  font-size: 51px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.slide-grid p {
+  text-align: start;
+  width: 585px;
+  height: 304px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.slide-grid span {
+  opacity: 0.6;
+}
+.button-click3 {
+  background-color: #ee5d30;
+  padding: 1rem 2rem;
+  border: none;
+  margin-right: 24rem;
+}
+#slide-lorem-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.media-section {
+  padding: 5rem;
+}
+
+.medias {
+  display: flex;
+  text-align: start;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+.media-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 4rem;
+  background-color: #ee5d30;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.media-grid-2 {
+  text-align: start;
+  padding: 0 2rem;
+}
+.media-grid-2 h4 {
+  width: 406px;
+  height: 40px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #151515;
+  font-weight: 800;
+  font-family: "Lato";
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+input {
+  margin-left: 2rem;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 75%;
+}
+#message {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 500px;
+}
+@media only screen and (max-width: 640px) {
+  .slide-grid {
+    height: 100vh;
+    background-color: #2f2339;
+    padding: 5rem 2rem;
+  }
+  .slide-grid p {
+    width: 100%;
+    padding-right: 2rem;
+  }
+  .button-click3 {
+    background-color: #ee5d30;
+    width: 40%;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-right: 24rem;
+    margin-top: 20vh;
+  }
+  .media-section {
+    padding: 1rem;
+  }
+  #slide-lorem-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .medias {
+    margin-left: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .media-icon {
+    margin: 0 1rem;
+  }
+  .media-grid-2 {
+    margin-top: 2rem;
+    text-align: start;
+    padding: 0 1rem;
+  }
+  .form {
+    margin-bottom: 2rem;
+  }
+  input {
+    width: 50%;
+  }
+  #message {
+    width: 220px;
+  }
+}
